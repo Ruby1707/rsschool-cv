@@ -2,7 +2,7 @@
 
 > my e-mail: pavel.gromov.1998@mail.ru  
 > my telephone number: +375 (29) 752-18-98  
-> Also you can find me in VK: https://vk.com/pavel__chehov  
+> Also you can find me in VK: [https://vk.com/pavel__chehov](https://vk.com/pavel__chehov)
 
   I am a 4th year student of the Faculty of Physics of BSU. My specialty is computer physics, which implies modeling of physical processes, which can be very different. However, modeling requires not only a good knowledge of programming, algorithms and the process in particular, but also good imagination, perseverance and zeal.
 Also, I am not an exception to the famous expression "Physicist-lyricist" - I am fascinated by literature, art and photography. I believe that this is not something separate from any accuracy and order, because even the driest programming and mathematics are art.
