@@ -1,1 +1,1 @@
-https://your-github-account.github.io/rsschool-cv/cv
+https://Ruby1707.github.io/rsschool-cv/cv
