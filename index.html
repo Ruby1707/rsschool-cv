@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+<body>
+  <div class="Menu">
+    <div class="Title"  style="position:absolute">
+      <p style=" margin-top: 15px;margin-left: 30px; font-size: 35px;float:left">Pavel Chareichyk</p>
+      <ul style="margin-right:30px;font-size: 15px;float:right">
+        <li>E-mail: pavel.gromov.1998@mail.ru</li>
+        <li>Telephone number: +375(29)-752-18-98</li>
+      </ul>
+      <div class="Image" style="position:relative; opacity:0.99;">
+      </div>
+    </div>
+    <div class="Abs" style="position:absolute">
+      <div class="Eng">
+        <input  class="hide" id="hd-1" type="checkbox">
+        <label for="hd-1"><h1>English</h1></label>
+        <div class="Info">
+          <label for="hd-1"><p>Unfortunately, my practice of English does not go beyond school and university study.</p></label>
+        </div>
+      </div>
+      <div class="Exp">
+        <input class="hide" id="hd-2" type="checkbox" >
+        <label for="hd-2"><h1>Experience</h1></label>
+        <div class="Info">
+          <label for="hd-2">
+            <p>My experience is in numerous laboratory work on modeling physical processes (mainly in C ++). Also, I learned to work on Vue.js and PHP myself.</p>
+          </label>
+        </div>
+      </div>
+      <div class="Intro">
+        <input class="hide" id="hd-3" type="checkbox" >
+        <label for="hd-3"><h1>Introducing</h1></label>
+        <div class="Info">
+          <label for="hd-3"><p>I am a 4th year student of the Faculty of Physics of BSU. My specialty is computer physics, which implies modeling of physical processes, which can be very different.</p></label>
+        </div>
+      </div>
+      <div class="Example">
+        <input class="hide" id="hd-4" type="checkbox" >
+        <label for="hd-4"><h1>Examples</h1></label>
+        <div class="Info">
+          <label for="hd-4"><p>Some examples of my works you can find <a href="https://ruby1707.github.io/rsschool-cv/cv">in full version:</a></label>
+        </div>
+      </div>
+      <div class="Education">
+        <input class="hide" id="hd-5" type="checkbox" >
+        <label for="hd-5"><h1>Education</h1></label>
+        <div class="Info">
+          <label for="hd-5"><p>I work with programming languages and platforms such as: С++, Mathematica, MathCad, PHP, Vue.js, and now I’m learning to work with CSS and HTML</p<></label>
+        </div>
+      </div>
+      <div class="Summary">
+        <input class="hide" id="hd-6" type="checkbox" >
+        <label for="hd-6"><h1>Summary</h1></label>
+        <div class="Info">
+          <label for="hd-6" style="font-size:13.5px;"><p>As with any physicist, my main goal is to study the world around me.  However, human “capacities” are not enough for the voluminous calculations that science is now engaged in.  In this regard, every physicist needs to establish a relationship with a computer, start talking to him in his language.</p></label>
+        </div>
+      </div>
+      <div class="Vk">
+      <p style="position: absolute; font-size:22px; margin-left: 360px;">Why didn't the skeleton go to the party?</p>
+      <a style="margin-right: 26px; position: absolute; font-size:22px;margin-top: 600px; " href="https://vk.com/pavel__chehov"><p style="text-align:center;">Find me in Vk!</p></a>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<style>
+
+.Title{
+  background: yellow;
+  border: 1px solid Silver;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 824px;
+  height: 70px;
+  margin-top: 100px;
+}
+.Abs h1{
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 45px;
+  font-style: italic;
+  text-align: center;
+  color:black;
+  font-weight: lighter;
+  text-decoration:overline;
+}
+.Title, .Vk p{
+  font-family: "Arial Narrow", sans-serif;
+  font-style: italic;
+}
+label {
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+.Menu {
+  background-image: url(image.png);
+  background-size: cover;
+  background-position: right top;
+  height: 1024px;
+  position: relative;
+  max-width:1024px;
+  margin: 0 auto;
+}
+.Image{
+  width: 240px;
+  height: 240px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 120px;
+  border: 3px solid Silver;
+  margin-left: 292px;
+  position:sticky;
+  margin-top: -85px;
+  background-image: url(head.png);
+  background-size:cover;
+
+}
+.Abs{
+   background-color: white;
+   height: 700px;
+   width: 1024px;
+   margin-top: 300px;
+   position: absolute;
+   opacity: 0.8;
+  }
+  img{
+   margin-left: 45px;
+   margin-top: 45px;
+ }
+.hide, .hide + label ~ div {
+      visibility: hidden;
+  }
+.hide:checked + label + div {
+      visibility: visible;
+
+  }
+.Info{
+    background-color: LightPink;
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    margin-top: -133px;
+  }
+.Eng, .Example,.Intro,.Exp,.Education,.Summary{
+    background-color: yellow ;
+    position: relative;
+    width: 200px;
+    height: 180px;
+    float: left;
+  }
+.Eng,.Example{
+    margin-left: 112px;
+    margin-top: 100px;
+  }
+.Intro,.Exp,.Education,.Summary{
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+.Info p{
+  padding: 5px;
+  vertical-align: middle;
+}
+</style>
+
+</html>
